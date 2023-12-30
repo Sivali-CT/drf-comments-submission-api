@@ -17,7 +17,8 @@ class CommentList(generics.ListCreateAPIView):
 class CommentByPostIdView(generics.ListAPIView):
     serializer_class = CommentSerializer
     permission_classes = [AllowAny] 
-    
+    ordering = ['-created_at'] 
+
     def get_queryset(self):
         post_id = self.kwargs.get('post_id')
         return Comment.objects.filter(post_id=post_id)

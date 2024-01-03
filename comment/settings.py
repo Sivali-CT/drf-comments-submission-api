@@ -27,11 +27,11 @@ SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "form.wackywalrus.my.id", "www.wackywalrus.my.id", "cms.wackywalrus.my.id", "wackywalrus.my.id", "cmt.wackywalrus.my.id", ".wackywalrus.my.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "form.chucklecheese.my.id", "www.chucklecheese.my.id", "cms.chucklecheese.my.id", "chucklecheese.my.id", "cmt.chucklecheese.my.id", ".chucklecheese.my.id"]
 
-CSRF_TRUSTED_ORIGINS=['https://cmt.wackywalrus.my.id']
-SESSION_COOKIE_DOMAIN = ".wackywalrus.my.id"
-CSRF_COOKIE_DOMAIN = ".wackywalrus.my.id"
+CSRF_TRUSTED_ORIGINS=['https://cmt.chucklecheese.my.id']
+SESSION_COOKIE_DOMAIN = ".chucklecheese.my.id"
+CSRF_COOKIE_DOMAIN = ".chucklecheese.my.id"
 
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
@@ -187,8 +187,8 @@ SIMPLE_JWT = {
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'https://cmt.wackywalrus.my.id',
-    'https://www.wackywalrus.my.id'
+    'https://cmt.chucklecheese.my.id',
+    'https://www.chucklecheese.my.id'
 ]
 
 CORS_ALLOW_CREDENTIALS = True 

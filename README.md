@@ -1,4 +1,4 @@
-# CMS
+# Comments API
 This is solely for demonstration purposes.
 
 ![drf](https://res.cloudinary.com/andinianst93/image/upload/v1703885036/Screenshot_from_2023-12-30_04-23-42_almv2r.png)
